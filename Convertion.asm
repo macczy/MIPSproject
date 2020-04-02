@@ -1,6 +1,5 @@
-#Program zamieniaj¹cy sta³e binarne w programie Ÿród³owym w jêzyku C na zgodne ze
-#standardem ANSI sta³e szesnastkowe o mo¿liwie najkrótszej reprezentacji (0b100001 na
-#0x21). Program nie mo¿e modyfikowaæ ³añcuchów tekstowych ani komentarzy.
+#Program changes binary constants from source file in C to hex constants in ANSI format in shortest form possible (0b100001 na
+#0x21). Program could not modify strings and commentaries.
 	.data
 buffer:	.space 128 ##IF CHANGE, NEED TO CHANGE IN getc
 bufferWrite: .space 128 ##IF CHANGE, NEED TO CHANGE IN main, opening file for writing section 
